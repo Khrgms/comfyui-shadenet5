@@ -49,6 +49,13 @@ Inputs are processed whole: the long side is scaled to 448 and the remainder
 of the square is edge-mirrored; the padding is cropped off the maps, so
 outputs match the input's aspect ratio.
 
+## Example
+
+The image below contains the workflow in its metadata — drag it into ComfyUI
+(or ComfyUI's canvas) to load it.
+
+![ShadeNet-5 example workflow and output](example.png)
+
 ## Notes
 
 - The ONNX files are fixed at 448×448; larger detail is limited by that.
