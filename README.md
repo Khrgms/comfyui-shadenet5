@@ -49,6 +49,11 @@ Inputs are processed whole: the long side is scaled to 448 and the remainder
 of the square is edge-mirrored; the padding is cropped off the maps, so
 outputs match the input's aspect ratio.
 
+## Credits
+
+- [ShadeNet-5](https://huggingface.co/singam96/ShadeNet-5-35M) by singam96 (Apache-2.0) — the model and the inference reference that `shadenet5_core.py` ports.
+- Built with assistance from [GLM](https://z.ai) (Z.ai) via OpenCode.
+
 ## Example
 
 The image below contains the workflow in its metadata — drag it into ComfyUI
