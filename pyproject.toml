@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-shadenet5"
+description = "ShadeNet-5 ComfyUI nodes: single-image inverse rendering — one photo in, albedo + relative depth + surface normal out (ONNX, auto-download)."
+version = "1.0.0"
+license = { text = "Apache-2.0" }
+dependencies = ["onnxruntime>=1.17", "huggingface_hub"]
+
+[project.urls]
+Repository = "https://github.com/Khrgms/comfyui-shadenet5"
+
+[tool.comfy]
+PublisherId = "khrgms"
+DisplayName = "ShadeNet-5 Inverse Render"
+Icon = ""

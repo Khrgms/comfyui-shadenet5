@@ -10,6 +10,11 @@ are ported verbatim from the repository's `inference/` scripts.
 
 ## Install
 
+### Via ComfyUI Manager
+**Custom Nodes Manager → Install via Git URL** and paste:
+`https://github.com/Khrgms/comfyui-shadenet5`
+
+### Manual
 Copy this folder into `ComfyUI/custom_nodes/` and install deps into ComfyUI's
 Python environment:
 
